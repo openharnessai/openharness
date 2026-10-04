@@ -18,6 +18,11 @@ As AI models get better, the harness around them decides what they can actually 
 - **Self-hosting**: see [docs/self-hosting.md](docs/self-hosting.md)
 - **Protocol**: see [docs/uhp.md](docs/uhp.md) for the Unified Harness Protocol
 
+## Community
+
+- Follow on X/Twitter: [@OpenHarnessai](https://x.com/OpenHarnessai)
+- Website: [openharnessai.app](https://openharnessai.app)
+
 ## License
 
 [Apache 2.0](LICENSE)
