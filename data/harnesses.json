@@ -43,7 +43,7 @@
   },
   {
     "name": "Command Code",
-    "description": "",
+    "description": "AI coding agent for the command line.",
     "homepage": "",
     "docs": "https://commandcode.ai/docs/reference/tools",
     "github": null
@@ -64,7 +64,7 @@
   },
   {
     "name": "Cursor",
-    "description": "",
+    "description": "AI-first code editor built on VS Code.",
     "homepage": "",
     "docs": "https://docs.cursor.com/en/agent/tools",
     "github": null
@@ -92,7 +92,7 @@
   },
   {
     "name": "OpenSquilla",
-    "description": "",
+    "description": "AI coding agent for building artifacts and media.",
     "homepage": "",
     "docs": "https://www.opensquilla.ai/zh/docs/artifacts-and-media/",
     "github": null
@@ -120,14 +120,14 @@
   },
   {
     "name": "Crush",
-    "description": "",
+    "description": "A terminal-first AI coding agent from Charm.",
     "homepage": "",
     "docs": "https://github.com/charmbracelet/crush",
     "github": "https://github.com/charmbracelet/crush"
   },
   {
     "name": "Continue",
-    "description": "",
+    "description": "Open-source AI code assistant for IDEs and the CLI.",
     "homepage": "",
     "docs": "https://docs.continue.dev/cli/quickstart",
     "github": null
@@ -141,14 +141,14 @@
   },
   {
     "name": "Skyvern",
-    "description": "",
+    "description": "AI agent for automating browser-based workflows.",
     "homepage": "",
     "docs": "https://www.skyvern.com/docs/developers/getting-started/core-concepts",
     "github": null
   },
   {
     "name": "Factory Droid",
-    "description": "",
+    "description": "Factory’s AI coding agent for autonomous engineering.",
     "homepage": "",
     "docs": "https://docs.factory.ai/cli/droid-exec/overview",
     "github": null
@@ -169,14 +169,14 @@
   },
   {
     "name": "Zoo Code",
-    "description": "",
+    "description": "AI coding assistant for VS Code.",
     "homepage": "",
     "docs": "https://docs.zoocode.dev/advanced-usage/available-tools/tool-use-overview",
     "github": null
   },
   {
     "name": "MiMo Code",
-    "description": "",
+    "description": "Xiaomi’s open-source AI coding agent.",
     "homepage": "",
     "docs": "https://github.com/XiaomiMiMo/MiMo-Code",
     "github": "https://github.com/XiaomiMiMo/MiMo-Code"
@@ -197,70 +197,70 @@
   },
   {
     "name": "QwenPaw",
-    "description": "",
+    "description": "Alibaba’s multi-agent development framework.",
     "homepage": "",
     "docs": "https://qwenpaw.agentscope.io/docs/console/",
     "github": null
   },
   {
     "name": "jcode",
-    "description": "",
+    "description": "AI coding agent for terminal-based workflows.",
     "homepage": "",
     "docs": "https://www.j-code.net/",
     "github": null
   },
   {
     "name": "stagewise",
-    "description": "",
+    "description": "Stagewise OpenRouter agent for multi-step tasks.",
     "homepage": "",
     "docs": "https://docs.stagewise.io/",
     "github": null
   },
   {
     "name": "PostQode",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://www.postqode.ai/enterprise",
     "github": null
   },
   {
     "name": "Verdent",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://docs.verdent.ai/verdent-for-vscode/advanced-features/tool-reference",
     "github": null
   },
   {
     "name": "Gajae Code",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://github.com/Yeachan-Heo/gajae-code",
     "github": "https://github.com/Yeachan-Heo/gajae-code"
   },
   {
     "name": "Deep Agents Code",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://docs.langchain.com/oss/python/deepagents/code/overview",
     "github": null
   },
   {
     "name": "Z Code",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://zcode.z.ai/en/docs/welcome",
     "github": null
   },
   {
     "name": "Ottili Coder",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://github.com/Ottili-ONE/coder-cli",
     "github": "https://github.com/Ottili-ONE/coder-cli"
   },
   {
     "name": "Swades Agent",
-    "description": "",
+    "description": "AI coding agent.",
     "homepage": "",
     "docs": "https://xerv.netlify.app/swades",
     "github": null

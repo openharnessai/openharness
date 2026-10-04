@@ -1,0 +1,15 @@
+{
+  "name": "openharness",
+  "version": "0.1.0",
+  "description": "Discover, compare, and evaluate AI agent harnesses.",
+  "license": "Apache-2.0",
+  "bin": {
+    "harness": "harness.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
