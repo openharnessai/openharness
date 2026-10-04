@@ -6,17 +6,56 @@
 
 ## What is OpenHarness?
 
-OpenHarness is a directory and infrastructure layer for [agent harnesses](docs/uhp.md) — the runtime that gives an AI coding agent its tools, sandbox, permissions, and memory. It lists 44+ reviewed harnesses with verified capabilities and usage evidence.
+OpenHarness is a directory of [agent harnesses](docs/uhp.md) — the runtime that
+gives an AI coding agent its tools, sandbox, permissions, and memory. This repo
+ships the directory as data plus a small CLI to browse and validate it.
 
-## Why it exists
+## Quick start
 
-As AI models get better, the harness around them decides what they can actually do. OpenHarness makes it easy to see which harness fits your stack, how it's verified, and whether it's available today.
+The CLI is a single file with **zero dependencies** — just Node.js.
 
-## Getting started
+```bash
+# list all 44 harnesses
+node harness.js list
 
-- **Directory**: browse the live directory at [openharnessai.app](https://openharnessai.app/harnesses)
-- **Self-hosting**: see [docs/self-hosting.md](docs/self-hosting.md)
-- **Protocol**: see [docs/uhp.md](docs/uhp.md) for the Unified Harness Protocol
+# search by keyword
+node harness.js search "coding"
+
+# inspect one harness
+node harness.js show "Claude Code"
+
+# generate a Markdown comparison table
+node harness.js table
+```
+
+## CLI reference
+
+| Command | Description |
+|---------|-------------|
+| `node harness.js list` | List every harness |
+| `node harness.js search <keyword>` | Search harnesses by name or description |
+| `node harness.js show <name>` | Show one harness in detail |
+| `node harness.js validate <file>` | Validate a UHP harness card (JSON) |
+| `node harness.js table` | Print a Markdown comparison table |
+
+## Unified Harness Protocol (UHP)
+
+Each harness is described by a small, machine-readable card (see
+[docs/uhp.md](docs/uhp.md)). The schema is [docs/schema.json](docs/schema.json),
+and the `validate` command checks a card against it:
+
+```bash
+node harness.js validate docs/example-card.json
+```
+
+## Data
+
+The directory lives in [data/harnesses.json](data/harnesses.json) — 44 harness
+cards, one per entry.
+
+## Self-hosting the website
+
+The website is a static site. See [docs/self-hosting.md](docs/self-hosting.md).
 
 ## Community
 

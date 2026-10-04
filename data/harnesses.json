@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Hermes Agent",
+    "description": "An open-source, persistent AI agent with memory, reusable skills, built-in tools, browser automation, scheduled tasks, and subagents.",
+    "homepage": "https://hermes-agent.nousresearch.com/",
+    "docs": "https://hermes-agent.nousresearch.com/docs/reference/tools-reference/",
+    "github": null
+  },
+  {
+    "name": "Kilo Code",
+    "description": "An open-source coding agent for VS Code, JetBrains, and the command line, built around agentic development workflows.",
+    "homepage": "https://kilocode.ai/",
+    "docs": "https://kilo.ai/docs/automate/tools",
+    "github": null
+  },
+  {
+    "name": "Claude Code",
+    "description": "Anthropic’s coding agent for understanding codebases, editing files, running commands and tests, and iterating on implementation tasks.",
+    "homepage": "https://claude.ai/code",
+    "docs": "https://code.claude.com/docs/en/tools-reference",
+    "github": null
+  },
+  {
+    "name": "OpenClaw",
+    "description": "An open-source personal agent that connects to messaging apps and can browse, run commands, manage files, and take external actions.",
+    "homepage": "https://openclaw.ai/",
+    "docs": "https://docs.openclaw.ai/tools/exec",
+    "github": null
+  },
+  {
+    "name": "Cline",
+    "description": "An open-source IDE coding agent that explores codebases, edits files, runs terminal commands, and operates a browser.",
+    "homepage": "https://cline.bot/",
+    "docs": "https://docs.cline.bot/sdk/tools",
+    "github": null
+  },
+  {
+    "name": "Pi",
+    "description": "A minimal, steerable coding agent that works on a real git workspace, reading, writing, and editing files and running Bash to complete tasks end to end.",
+    "homepage": "https://pi.dev/",
+    "docs": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md",
+    "github": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md"
+  },
+  {
+    "name": "Command Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://commandcode.ai/docs/reference/tools",
+    "github": null
+  },
+  {
+    "name": "Codex",
+    "description": "OpenAI’s coding agent for building, reviewing, testing, and shipping software across local and cloud development environments.",
+    "homepage": "https://openai.com/codex/",
+    "docs": "https://openai.com/index/codex-for-almost-everything/",
+    "github": null
+  },
+  {
+    "name": "Oh My Pi",
+    "description": "An open-source, multi-provider coding agent designed for terminal-based software development workflows.",
+    "homepage": "https://github.com/can1357/oh-my-pi",
+    "docs": "https://github.com/can1357/oh-my-pi",
+    "github": "https://github.com/can1357/oh-my-pi"
+  },
+  {
+    "name": "Cursor",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.cursor.com/en/agent/tools",
+    "github": null
+  },
+  {
+    "name": "Codebuff",
+    "description": "A self-improving command-line coding agent.",
+    "homepage": "https://codebuff.com/",
+    "docs": "https://github.com/CodebuffAI/codebuff",
+    "github": "https://github.com/CodebuffAI/codebuff"
+  },
+  {
+    "name": "OpenHands",
+    "description": "An open-source coding agent platform that can run commands, browse the web, edit software projects, and call APIs.",
+    "homepage": "https://www.openhands.dev/",
+    "docs": "https://docs.openhands.dev/sdk/index",
+    "github": null
+  },
+  {
+    "name": "Roo Code",
+    "description": "A VS Code agent with customizable modes for coding, architecture, debugging, and review across multiple model providers.",
+    "homepage": "https://github.com/RooVetGit/Roo-Cline",
+    "docs": "https://roocodeinc.github.io/Roo-Code/advanced-usage/available-tools/tool-use-overview/",
+    "github": "https://github.com/RooVetGit/Roo-Cline"
+  },
+  {
+    "name": "OpenSquilla",
+    "description": "",
+    "homepage": "",
+    "docs": "https://www.opensquilla.ai/zh/docs/artifacts-and-media/",
+    "github": null
+  },
+  {
+    "name": "Agent Zero",
+    "description": "An open-source framework for creating and operating customizable autonomous AI agents.",
+    "homepage": "https://agent-zero.ai/",
+    "docs": "https://www.agent-zero.ai/p/docs/desktop/",
+    "github": null
+  },
+  {
+    "name": "Qwen Code",
+    "description": "A command-line AI workflow tool for coding and software engineering tasks.",
+    "homepage": "https://github.com/QwenLM/qwen-code",
+    "docs": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/introduction/",
+    "github": "https://github.com/QwenLM/qwen-code"
+  },
+  {
+    "name": "goose",
+    "description": "An open-source, on-machine AI agent for extensible development and automation workflows.",
+    "homepage": "https://goose-docs.ai/",
+    "docs": "https://goose-docs.ai/",
+    "github": null
+  },
+  {
+    "name": "Crush",
+    "description": "",
+    "homepage": "",
+    "docs": "https://github.com/charmbracelet/crush",
+    "github": "https://github.com/charmbracelet/crush"
+  },
+  {
+    "name": "Continue",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.continue.dev/cli/quickstart",
+    "github": null
+  },
+  {
+    "name": "nanobot",
+    "description": "An ultra-lightweight personal AI agent.",
+    "homepage": "https://github.com/HKUDS/nanobot",
+    "docs": "https://github.com/HKUDS/nanobot",
+    "github": "https://github.com/HKUDS/nanobot"
+  },
+  {
+    "name": "Skyvern",
+    "description": "",
+    "homepage": "",
+    "docs": "https://www.skyvern.com/docs/developers/getting-started/core-concepts",
+    "github": null
+  },
+  {
+    "name": "Factory Droid",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.factory.ai/cli/droid-exec/overview",
+    "github": null
+  },
+  {
+    "name": "Aider",
+    "description": "An open-source AI pair-programming agent that works directly from the terminal.",
+    "homepage": "https://aider.chat/",
+    "docs": "https://aider.chat/docs/usage/commands.html",
+    "github": null
+  },
+  {
+    "name": "Junie",
+    "description": "JetBrains’ agentic coding tool for reviewing, writing, and modifying code through IDE and terminal workflows.",
+    "homepage": "https://www.jetbrains.com/junie",
+    "docs": "https://junie.jetbrains.com/docs/action-allowlist-junie-cli.html",
+    "github": null
+  },
+  {
+    "name": "Zoo Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.zoocode.dev/advanced-usage/available-tools/tool-use-overview",
+    "github": null
+  },
+  {
+    "name": "MiMo Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "github": "https://github.com/XiaomiMiMo/MiMo-Code"
+  },
+  {
+    "name": "pool",
+    "description": "Poolside’s coding agent for terminal workflows and ACP-compatible editors.",
+    "homepage": "https://poolside.ai/",
+    "docs": "https://docs.poolside.ai/cli/pool",
+    "github": null
+  },
+  {
+    "name": "TeleClaw",
+    "description": "A platform for creating custom Telegram AI bots.",
+    "homepage": "https://app.teleclaw.bot/",
+    "docs": "https://teleclaw.info/?lang=en",
+    "github": null
+  },
+  {
+    "name": "QwenPaw",
+    "description": "",
+    "homepage": "",
+    "docs": "https://qwenpaw.agentscope.io/docs/console/",
+    "github": null
+  },
+  {
+    "name": "jcode",
+    "description": "",
+    "homepage": "",
+    "docs": "https://www.j-code.net/",
+    "github": null
+  },
+  {
+    "name": "stagewise",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.stagewise.io/",
+    "github": null
+  },
+  {
+    "name": "PostQode",
+    "description": "",
+    "homepage": "",
+    "docs": "https://www.postqode.ai/enterprise",
+    "github": null
+  },
+  {
+    "name": "Verdent",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.verdent.ai/verdent-for-vscode/advanced-features/tool-reference",
+    "github": null
+  },
+  {
+    "name": "Gajae Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://github.com/Yeachan-Heo/gajae-code",
+    "github": "https://github.com/Yeachan-Heo/gajae-code"
+  },
+  {
+    "name": "Deep Agents Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://docs.langchain.com/oss/python/deepagents/code/overview",
+    "github": null
+  },
+  {
+    "name": "Z Code",
+    "description": "",
+    "homepage": "",
+    "docs": "https://zcode.z.ai/en/docs/welcome",
+    "github": null
+  },
+  {
+    "name": "Ottili Coder",
+    "description": "",
+    "homepage": "",
+    "docs": "https://github.com/Ottili-ONE/coder-cli",
+    "github": "https://github.com/Ottili-ONE/coder-cli"
+  },
+  {
+    "name": "Swades Agent",
+    "description": "",
+    "homepage": "",
+    "docs": "https://xerv.netlify.app/swades",
+    "github": null
+  },
+  {
+    "name": "DeepSeek Harness",
+    "description": "An autonomous coding agent that works on a real git workspace, running shell commands and editing files to complete tasks end to end.",
+    "homepage": "",
+    "docs": "https://github.com/deepseek-ai/deepseek-harness",
+    "github": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  {
+    "name": "OpenCode",
+    "description": "An open source, provider-agnostic AI coding agent with a terminal interface, custom tools, skills, MCP support, and configurable permissions.",
+    "homepage": "https://opencode.ai/",
+    "docs": "https://opencode.ai/docs/tools/",
+    "github": null
+  },
+  {
+    "name": "Gemini CLI",
+    "description": "Google’s open-source terminal agent that brings Gemini to the command line, with file system and shell tools, MCP servers, extensions, and sandboxed execution.",
+    "homepage": "https://geminicli.com/",
+    "docs": "https://google-gemini.github.io/gemini-cli/",
+    "github": null
+  },
+  {
+    "name": "Kimi Code CLI",
+    "description": "An open-source terminal coding agent from Moonshot AI, with built-in file and shell tools, sub-agents, plugins, and MCP.",
+    "homepage": "https://www.kimi.ai/code",
+    "docs": "https://moonshotai.github.io/kimi-code/en/",
+    "github": null
+  },
+  {
+    "name": "System One",
+    "description": "An open-source decision loop that compiles an environment\\'s finite action space into typed questions and gates each choice by confidence.",
+    "homepage": "https://github.com/openharnessai/openharness",
+    "docs": "https://github.com/openharnessai/openharness",
+    "github": "https://github.com/openharnessai/openharness"
+  },
+  {
+    "name": "CheetahClaws",
+    "description": "An open-source terminal coding agent with a large built-in tool set, typed sub-agents, plugins, and persistent memory.",
+    "homepage": "https://cheetahclaws.github.io/",
+    "docs": "https://cheetahclaws.github.io/",
+    "github": null
+  }
+]

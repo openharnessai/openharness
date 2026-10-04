@@ -1,0 +1,7 @@
+{
+  "name": "Example Harness",
+  "description": "A minimal harness card used to demonstrate UHP validation.",
+  "homepage": "https://example.com",
+  "docs": "https://example.com/docs",
+  "github": "https://github.com/example/example-harness"
+}
