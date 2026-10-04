@@ -1,5 +1,9 @@
 # OpenHarness
 
+[![CI](https://github.com/openharnessai/openharness/actions/workflows/ci.yml/badge.svg)](https://github.com/openharnessai/openharness/actions)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-0.1.0-lightgrey)](package.json)
+
 **The agent infrastructure layer.** Discover, compare, and evaluate AI agent harnesses — verified capabilities, usage evidence, and current availability.
 
 > **Formerly HarnessRouter.** OpenHarness is an independent project and is **not affiliated with** any other project using the "OpenHarness" name.
