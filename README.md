@@ -14,6 +14,13 @@ OpenHarness is a directory of [agent harnesses](docs/uhp.md) — the runtime tha
 gives an AI coding agent its tools, sandbox, permissions, and memory. This repo
 ships the directory as data plus a small CLI to browse and validate it.
 
+## Why OpenHarness
+
+- **44 real harnesses** — a curated directory shipped as plain JSON, not a walled garden.
+- **Zero dependencies** — the CLI is a single `harness.js` file. Just Node.
+- **A protocol, not just a list** — every entry is a UHP harness card you can validate.
+- **Machine-readable** — `--json` on every read command, so it scripts cleanly.
+
 ## Quick start
 
 The CLI is a single file with **zero dependencies** — just Node.js.
@@ -32,7 +39,7 @@ node harness.js show "Claude Code"
 node harness.js table
 ```
 
-![harness CLI demo](docs/demo.png)
+![harness CLI demo](docs/demo.gif)
 
 ## CLI reference
 
