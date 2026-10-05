@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 let failures = 0;
 
@@ -18,6 +19,13 @@ function check(cond, msg) {
 
 function isUrl(v) {
   return /^https?:\/\/\S+$/.test(String(v));
+}
+
+function runCli(args) {
+  return execFileSync(process.execPath, ['harness.js'].concat(args), {
+    encoding: 'utf8',
+    cwd: __dirname,
+  });
 }
 
 // 1. data/harnesses.json
@@ -44,6 +52,35 @@ check(
   schema.required.every((r) => typeof example[r] === 'string' && example[r].trim() !== ''),
   'example-card satisfies required fields'
 );
+
+// 4. CLI commands
+const listOut = runCli(['list']);
+check(listOut.includes('44 harnesses'), 'cli list prints 44 harnesses');
+
+const searchOut = runCli(['search', 'coding']);
+check(searchOut.includes('match(es) for "coding"'), 'cli search finds matches');
+
+const showJson = runCli(['show', 'Claude Code', '--json']);
+check(JSON.parse(showJson).name === 'Claude Code', 'cli show --json returns valid JSON');
+
+const helpOut = runCli(['help']);
+check(helpOut.includes('Usage'), 'cli help prints usage');
+
+const tableOut = runCli(['table']);
+check(tableOut.startsWith('| Name |'), 'cli table prints a Markdown table');
+
+runCli(['validate', 'docs/example-card.json']);
+check(true, 'cli validate accepts a valid card');
+
+try {
+  execFileSync(process.execPath, ['harness.js', 'validate', 'does-not-exist.json'], {
+    encoding: 'utf8',
+    cwd: __dirname,
+  });
+  check(false, 'cli validate rejects a missing file');
+} catch (e) {
+  check(true, 'cli validate rejects a missing file');
+}
 
 if (failures > 0) {
   console.log('\n' + failures + ' failure(s)');

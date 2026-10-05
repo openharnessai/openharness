@@ -32,15 +32,20 @@ node harness.js show "Claude Code"
 node harness.js table
 ```
 
+![harness CLI demo](docs/demo.png)
+
 ## CLI reference
 
 | Command | Description |
 |---------|-------------|
-| `node harness.js list` | List every harness |
+| `node harness.js list [--json]` | List every harness |
 | `node harness.js search <keyword>` | Search harnesses by name or description |
-| `node harness.js show <name>` | Show one harness in detail |
+| `node harness.js show <name> [--json]` | Show one harness in detail |
 | `node harness.js validate <file>` | Validate a UHP harness card (JSON) |
 | `node harness.js table` | Print a Markdown comparison table |
+| `node harness.js help` | Show help |
+
+Pass `--json` to `list`, `search`, or `show` for machine-readable output.
 
 ## Unified Harness Protocol (UHP)
 

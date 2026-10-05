@@ -8,11 +8,12 @@
  * validating harness cards against the Unified Harness Protocol (UHP).
  *
  * Usage:
- *   node harness.js list                 List every harness
+ *   node harness.js list [--json]        List every harness
  *   node harness.js search <keyword>     Search harnesses by name or description
  *   node harness.js show <name>          Show one harness in detail
  *   node harness.js validate <file>      Validate a UHP harness card (JSON)
  *   node harness.js table                Print a Markdown comparison table
+ *   node harness.js help                 Show this help
  */
 
 const fs = require('fs');
@@ -48,14 +49,18 @@ function isUrl(value) {
 
 // --- commands -------------------------------------------------------------
 
-function cmdList() {
+function cmdList(json) {
+  if (json) {
+    console.log(JSON.stringify(HARNESSES, null, 2));
+    return;
+  }
   console.log(`${HARNESSES.length} harnesses\n`);
   for (const h of HARNESSES) {
     console.log(`  ${h.name} — ${h.description}`);
   }
 }
 
-function cmdSearch(keyword) {
+function cmdSearch(keyword, json) {
   if (!keyword) {
     console.error('usage: node harness.js search <keyword>');
     process.exit(1);
@@ -64,6 +69,10 @@ function cmdSearch(keyword) {
   const matches = HARNESSES.filter(
     (h) => h.name.toLowerCase().includes(lower) || h.description.toLowerCase().includes(lower)
   );
+  if (json) {
+    console.log(JSON.stringify(matches, null, 2));
+    return;
+  }
   if (matches.length === 0) {
     console.log(`no harness matches "${keyword}"`);
     return;
@@ -74,7 +83,7 @@ function cmdSearch(keyword) {
   }
 }
 
-function cmdShow(name) {
+function cmdShow(name, json) {
   if (!name) {
     console.error('usage: node harness.js show <name>');
     process.exit(1);
@@ -90,6 +99,10 @@ function cmdShow(name) {
     return;
   }
   const h = matches[0];
+  if (json) {
+    console.log(JSON.stringify(h, null, 2));
+    return;
+  }
   console.log(h.name);
   console.log(`  ${h.description}`);
   console.log(`  homepage: ${h.homepage || '—'}`);
@@ -139,19 +152,35 @@ function cmdTable() {
   }
 }
 
+function cmdHelp() {
+  console.log(`OpenHarness CLI — browse and validate the agent harness directory.
+
+Usage:
+  node harness.js list [--json]        List every harness
+  node harness.js search <keyword>     Search harnesses by name or description
+  node harness.js show <name> [--json] Show one harness in detail
+  node harness.js validate <file>      Validate a UHP harness card (JSON)
+  node harness.js table                Print a Markdown comparison table
+  node harness.js help                 Show this help
+
+Pass --json to list/search/show for machine-readable output.`);
+}
+
 // --- main -----------------------------------------------------------------
 
-const [cmd, arg] = process.argv.slice(2);
+const args = process.argv.slice(2);
+const json = args.includes('--json');
+const [cmd, arg] = args.filter((a) => a !== '--json');
 
 switch (cmd) {
   case 'list':
-    cmdList();
+    cmdList(json);
     break;
   case 'search':
-    cmdSearch(arg);
+    cmdSearch(arg, json);
     break;
   case 'show':
-    cmdShow(arg);
+    cmdShow(arg, json);
     break;
   case 'validate':
     cmdValidate(arg);
@@ -159,7 +188,12 @@ switch (cmd) {
   case 'table':
     cmdTable();
     break;
+  case 'help':
+  case '--help':
+  case '-h':
+    cmdHelp();
+    break;
   default:
-    console.log('usage: node harness.js <list|search|show|validate|table> [arg]');
+    console.log('usage: node harness.js <list|search|show|validate|table|help> [arg] [--json]');
     process.exit(1);
 }
