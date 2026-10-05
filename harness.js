@@ -152,6 +152,51 @@ function cmdTable() {
   }
 }
 
+function cmdStats(json) {
+  const stats = {
+    total: HARNESSES.length,
+    withGithub: HARNESSES.filter((h) => h.github).length,
+    withHomepage: HARNESSES.filter((h) => h.homepage).length,
+    withDocs: HARNESSES.filter((h) => h.docs).length,
+  };
+  if (json) {
+    console.log(JSON.stringify(stats, null, 2));
+    return;
+  }
+  console.log(`${stats.total} harnesses`);
+  console.log(`  ${stats.withGithub} with a public GitHub repo`);
+  console.log(`  ${stats.withHomepage} with a homepage`);
+  console.log(`  ${stats.withDocs} with docs`);
+}
+
+function cmdCompare(a, b, json) {
+  if (!a || !b) {
+    console.error('usage: node harness.js compare <nameA> <nameB>');
+    process.exit(1);
+  }
+  const ha = findByName(a)[0];
+  const hb = findByName(b)[0];
+  if (!ha || !hb) {
+    console.log('could not find both harnesses (be more specific)');
+    return;
+  }
+  if (json) {
+    console.log(JSON.stringify({ a: ha, b: hb }, null, 2));
+    return;
+  }
+  const rows = [
+    ['name', ha.name, hb.name],
+    ['description', ha.description, hb.description],
+    ['homepage', ha.homepage || '—', hb.homepage || '—'],
+    ['docs', ha.docs || '—', hb.docs || '—'],
+    ['github', ha.github || '—', hb.github || '—'],
+  ];
+  const w1 = Math.max(...rows.map((r) => r[1].length));
+  for (const [label, va, vb] of rows) {
+    console.log(`${label.padEnd(12)} ${va.padEnd(w1 + 2)} ${vb}`);
+  }
+}
+
 function cmdHelp() {
   console.log(`OpenHarness CLI — browse and validate the agent harness directory.
 
@@ -161,16 +206,21 @@ Usage:
   node harness.js show <name> [--json] Show one harness in detail
   node harness.js validate <file>      Validate a UHP harness card (JSON)
   node harness.js table                Print a Markdown comparison table
+  node harness.js stats [--json]       Print directory stats
+  node harness.js compare <a> <b>      Compare two harnesses
   node harness.js help                 Show this help
 
-Pass --json to list/search/show for machine-readable output.`);
+Pass --json to list/search/show/stats/compare for machine-readable output.`);
 }
 
 // --- main -----------------------------------------------------------------
 
 const args = process.argv.slice(2);
 const json = args.includes('--json');
-const [cmd, arg] = args.filter((a) => a !== '--json');
+const rest = args.filter((a) => a !== '--json');
+const cmd = rest[0];
+const arg = rest[1];
+const arg2 = rest[2];
 
 switch (cmd) {
   case 'list':
@@ -188,12 +238,18 @@ switch (cmd) {
   case 'table':
     cmdTable();
     break;
+  case 'stats':
+    cmdStats(json);
+    break;
+  case 'compare':
+    cmdCompare(arg, arg2, json);
+    break;
   case 'help':
   case '--help':
   case '-h':
     cmdHelp();
     break;
   default:
-    console.log('usage: node harness.js <list|search|show|validate|table|help> [arg] [--json]');
+    console.log('usage: node harness.js <list|search|show|validate|table|stats|compare|help> [args] [--json]');
     process.exit(1);
 }
