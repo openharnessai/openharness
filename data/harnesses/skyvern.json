@@ -1,0 +1,27 @@
+{
+  "name": "Skyvern",
+  "description": "AI agent for automating browser-based workflows.",
+  "homepage": null,
+  "docs": "https://www.skyvern.com/docs/developers/getting-started/core-concepts",
+  "github": "https://github.com/Skyvern-AI/skyvern",
+  "id": "skyvern",
+  "oss": true,
+  "license": "AGPL-3.0",
+  "categories": [
+    "browser"
+  ],
+  "interfaces": [
+    "web",
+    "api"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Codex",
+  "description": "OpenAI’s coding agent for building, reviewing, testing, and shipping software across local and cloud development environments.",
+  "homepage": "https://openai.com/codex/",
+  "docs": "https://openai.com/index/codex-for-almost-everything/",
+  "github": null,
+  "id": "codex",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

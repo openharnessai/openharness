@@ -1,0 +1,26 @@
+{
+  "name": "OpenClaw",
+  "description": "An open-source personal agent that connects to messaging apps and can browse, run commands, manage files, and take external actions.",
+  "homepage": "https://openclaw.ai/",
+  "docs": "https://docs.openclaw.ai/tools/exec",
+  "github": null,
+  "id": "openclaw",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

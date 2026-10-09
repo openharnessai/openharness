@@ -1,0 +1,26 @@
+{
+  "name": "pool",
+  "description": "Poolside’s coding agent for terminal workflows and ACP-compatible editors.",
+  "homepage": "https://poolside.ai/",
+  "docs": "https://docs.poolside.ai/cli/pool",
+  "github": null,
+  "id": "pool",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

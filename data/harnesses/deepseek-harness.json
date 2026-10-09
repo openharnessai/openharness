@@ -1,0 +1,26 @@
+{
+  "name": "DeepSeek Harness",
+  "description": "An autonomous coding agent that works on a real git workspace, running shell commands and editing files to complete tasks end to end.",
+  "homepage": null,
+  "docs": "https://github.com/deepseek-ai/deepseek-harness",
+  "github": "https://github.com/deepseek-ai/deepseek-harness",
+  "id": "deepseek-harness",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

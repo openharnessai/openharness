@@ -1,0 +1,26 @@
+{
+  "name": "Roo Code",
+  "description": "A VS Code agent with customizable modes for coding, architecture, debugging, and review across multiple model providers.",
+  "homepage": "https://github.com/RooVetGit/Roo-Cline",
+  "docs": "https://roocodeinc.github.io/Roo-Code/advanced-usage/available-tools/tool-use-overview/",
+  "github": "https://github.com/RooVetGit/Roo-Cline",
+  "id": "roo-code",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "ide"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

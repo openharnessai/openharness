@@ -1,0 +1,26 @@
+{
+  "name": "Factory Droid",
+  "description": "Factory’s AI coding agent for autonomous engineering.",
+  "homepage": null,
+  "docs": "https://docs.factory.ai/cli/droid-exec/overview",
+  "github": "https://github.com/FactoryAI/droid",
+  "id": "factory-droid",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

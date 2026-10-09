@@ -28,3 +28,6 @@ Thumbs.db
 
 # Misc
 *.tmp
+
+# Generated dist
+dist/

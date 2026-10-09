@@ -1,0 +1,26 @@
+{
+  "name": "Crush",
+  "description": "A terminal-first AI coding agent from Charm.",
+  "homepage": null,
+  "docs": "https://github.com/charmbracelet/crush",
+  "github": "https://github.com/charmbracelet/crush",
+  "id": "crush",
+  "oss": true,
+  "license": "MIT",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

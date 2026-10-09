@@ -1,0 +1,26 @@
+{
+  "name": "Claude Code",
+  "description": "Anthropic’s coding agent for understanding codebases, editing files, running commands and tests, and iterating on implementation tasks.",
+  "homepage": "https://claude.ai/code",
+  "docs": "https://code.claude.com/docs/en/tools-reference",
+  "github": null,
+  "id": "claude-code",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

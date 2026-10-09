@@ -1,0 +1,26 @@
+{
+  "name": "Kilo Code",
+  "description": "An open-source coding agent for VS Code, JetBrains, and the command line, built around agentic development workflows.",
+  "homepage": "https://kilocode.ai/",
+  "docs": "https://kilo.ai/docs/automate/tools",
+  "github": null,
+  "id": "kilo-code",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

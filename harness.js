@@ -19,7 +19,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_FILE = path.join(__dirname, 'data', 'harnesses.json');
+const DATA_DIR = path.join(__dirname, 'data', 'harnesses');
 const SCHEMA_FILE = path.join(__dirname, 'docs', 'schema.json');
 
 // --- data loading ---------------------------------------------------------
@@ -33,7 +33,14 @@ function readJson(file) {
   }
 }
 
-const HARNESSES = readJson(DATA_FILE);
+function loadHarnesses() {
+  const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('.json'));
+  const list = files.map((f) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf8')));
+  list.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+  return list;
+}
+
+const HARNESSES = loadHarnesses();
 const SCHEMA = readJson(SCHEMA_FILE);
 
 // --- helpers --------------------------------------------------------------

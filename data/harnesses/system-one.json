@@ -1,0 +1,26 @@
+{
+  "name": "System One",
+  "description": "An open-source decision loop that compiles an environment\\'s finite action space into typed questions and gates each choice by confidence.",
+  "homepage": null,
+  "docs": null,
+  "github": null,
+  "id": "system-one",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

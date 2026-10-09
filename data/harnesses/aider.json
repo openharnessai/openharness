@@ -1,0 +1,26 @@
+{
+  "name": "Aider",
+  "description": "An open-source AI pair-programming agent that works directly from the terminal.",
+  "homepage": "https://aider.chat/",
+  "docs": "https://aider.chat/docs/usage/commands.html",
+  "github": "https://github.com/Aider-AI/aider",
+  "id": "aider",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

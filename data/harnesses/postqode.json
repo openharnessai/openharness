@@ -1,0 +1,26 @@
+{
+  "name": "PostQode",
+  "description": "AI coding agent. Details pending.",
+  "homepage": null,
+  "docs": "https://www.postqode.ai/enterprise",
+  "github": null,
+  "id": "postqode",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

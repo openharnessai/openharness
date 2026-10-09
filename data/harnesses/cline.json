@@ -1,0 +1,27 @@
+{
+  "name": "Cline",
+  "description": "An open-source IDE coding agent that explores codebases, edits files, runs terminal commands, and operates a browser.",
+  "homepage": "https://cline.bot/",
+  "docs": "https://docs.cline.bot/sdk/tools",
+  "github": "https://github.com/cline/cline",
+  "id": "cline",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "ide",
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

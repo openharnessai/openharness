@@ -1,0 +1,49 @@
+name: Add a harness
+description: Request or contribute a new agent harness to the directory.
+title: "Add: "
+labels: ["add-harness"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Display name of the harness.
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      description: The harness's own website, if any.
+  - type: input
+    id: github
+    attributes:
+      label: GitHub repository
+      description: Public source repository root, if any.
+  - type: dropdown
+    id: oss
+    attributes:
+      label: Open source?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: checkboxes
+    id: interfaces
+    attributes:
+      label: Interfaces
+      description: How do you interact with it?
+      options:
+        - label: CLI
+        - label: IDE
+        - label: SDK
+        - label: API
+        - label: Web
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: One or two factual sentences. Not marketing copy.
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+{
+  "name": "Gemini CLI",
+  "description": "Google’s open-source terminal agent that brings Gemini to the command line, with file system and shell tools, MCP servers, extensions, and sandboxed execution.",
+  "homepage": "https://geminicli.com/",
+  "docs": "https://google-gemini.github.io/gemini-cli/",
+  "github": "https://github.com/google-gemini/gemini-cli",
+  "id": "gemini-cli",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "jcode",
+  "description": "AI coding agent for terminal-based workflows.",
+  "homepage": null,
+  "docs": "https://www.j-code.net/",
+  "github": null,
+  "id": "jcode",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

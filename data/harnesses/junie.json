@@ -1,0 +1,26 @@
+{
+  "name": "Junie",
+  "description": "JetBrains’ agentic coding tool for reviewing, writing, and modifying code through IDE and terminal workflows.",
+  "homepage": "https://www.jetbrains.com/junie",
+  "docs": "https://junie.jetbrains.com/docs/action-allowlist-junie-cli.html",
+  "github": null,
+  "id": "junie",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

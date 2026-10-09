@@ -1,33 +1,80 @@
 # Contributing
 
-Thanks for your interest in OpenHarness.
+Thanks for your interest in OpenHarness. This repo is a **directory of agent
+harnesses + a CLI + the UHP card format**. Contributions are welcome.
+
+## Inclusion criteria
+
+A harness is included when it is **a harness** — the runtime that gives an AI
+agent its tools, sandbox, permissions, and memory.
+
+- ✅ **In scope**: agent harnesses and agent frameworks (coding agents, browser
+  agents, personal agents).
+- ❌ **Out of scope**: models (GPT, Claude, Qwen, …), chat shells without
+  agentic tool use, or model-only APIs.
+
+When in doubt, open an issue before a PR.
 
 ## Adding or updating a harness
 
-The directory lives in `data/harnesses.json`. Each entry is a UHP harness card:
+Each harness is one file at `data/harnesses/<id>.json`. The `<id>` is a stable
+slug (`lowercase-with-dashes`) that never changes once published.
+
+```bash
+# after editing, validate locally
+node test.js
+# and build the combined artifact
+node scripts/build.js
+```
+
+## A valid card
 
 ```json
 {
+  "id": "example-harness",
   "name": "Example Harness",
-  "description": "One or two sentences about what it does.",
+  "description": "A coding agent that edits files and runs commands in a sandbox.",
   "homepage": "https://example.com",
   "docs": "https://example.com/docs",
-  "github": "https://github.com/example/repo"
+  "github": "https://github.com/example/example-harness",
+  "repo": "https://github.com/example/example-harness",
+  "license": "Apache-2.0",
+  "categories": ["coding"],
+  "interfaces": ["cli"],
+  "oss": true,
+  "source": "https://example.com",
+  "last_verified": "2026-10-09",
+  "capabilities": {
+    "sandbox": true,
+    "tools": true,
+    "mcp": false,
+    "permissions": true,
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
 }
 ```
 
-Only `name` and `description` are required. `homepage`, `docs`, and `github`
-must be `http(s)` URLs when present.
+## An invalid card (and why)
 
-Before opening a PR:
-
-```bash
-node harness.js list          # sanity check the directory
-node test.js                  # run the smoke tests
+```json
+{
+  "id": "not-a-harness",
+  "name": "Some model",
+  "description": "A language model.",          // too short, and this is a model, not a harness
+  "categories": [],
+  "interfaces": ["cli"],
+  "oss": false
+}
 ```
 
-## Style
+This fails because `description` is under 20 characters, `categories` is empty,
+and a model is out of scope.
 
-- Keep the directory data as plain JSON, one object per harness.
-- The CLI is intentionally dependency-free; don't add packages for features
-  Node's standard library already covers.
+## Rules
+
+- Capabilities use `true`, `false`, or `"unknown"` — never marketing copy.
+- `github`/`repo` must point to a repository root, not a `/blob/` path.
+- No self-referencing URLs back to this repo.
+- If you do not have evidence for a field, use `null` or `"unknown"`, never a
+  placeholder that looks verified.

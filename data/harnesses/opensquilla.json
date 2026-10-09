@@ -1,0 +1,26 @@
+{
+  "name": "OpenSquilla",
+  "description": "AI coding agent for building artifacts and media.",
+  "homepage": null,
+  "docs": "https://www.opensquilla.ai/zh/docs/artifacts-and-media/",
+  "github": null,
+  "id": "opensquilla",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

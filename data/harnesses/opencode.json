@@ -1,0 +1,27 @@
+{
+  "name": "OpenCode",
+  "description": "An open source, provider-agnostic AI coding agent with a terminal interface, custom tools, skills, MCP support, and configurable permissions.",
+  "homepage": "https://opencode.ai/",
+  "docs": "https://opencode.ai/docs/tools/",
+  "github": "https://github.com/sst/opencode",
+  "id": "opencode",
+  "oss": true,
+  "license": "MIT",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli",
+    "web"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

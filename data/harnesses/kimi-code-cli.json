@@ -1,0 +1,26 @@
+{
+  "name": "Kimi Code CLI",
+  "description": "An open-source terminal coding agent from Moonshot AI, with built-in file and shell tools, sub-agents, plugins, and MCP.",
+  "homepage": "https://www.kimi.ai/code",
+  "docs": "https://moonshotai.github.io/kimi-code/en/",
+  "github": "https://github.com/MoonshotAI/kimi-code",
+  "id": "kimi-code-cli",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

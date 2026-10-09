@@ -1,0 +1,26 @@
+{
+  "name": "Ottili Coder",
+  "description": "Command-line AI coding agent.",
+  "homepage": null,
+  "docs": "https://github.com/Ottili-ONE/coder-cli",
+  "github": "https://github.com/Ottili-ONE/coder-cli",
+  "id": "ottili-coder",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

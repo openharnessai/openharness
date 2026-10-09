@@ -1,0 +1,26 @@
+{
+  "name": "Command Code",
+  "description": "AI coding agent for the command line.",
+  "homepage": null,
+  "docs": "https://commandcode.ai/docs/reference/tools",
+  "github": null,
+  "id": "command-code",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

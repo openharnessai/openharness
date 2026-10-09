@@ -1,0 +1,26 @@
+{
+  "name": "CheetahClaws",
+  "description": "An open-source terminal coding agent with a large built-in tool set, typed sub-agents, plugins, and persistent memory.",
+  "homepage": "https://cheetahclaws.github.io/",
+  "docs": "https://cheetahclaws.github.io/",
+  "github": "https://github.com/SAIL-Research-Lab/cheetahclaws",
+  "id": "cheetahclaws",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

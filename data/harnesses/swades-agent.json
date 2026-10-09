@@ -1,0 +1,26 @@
+{
+  "name": "Swades Agent",
+  "description": "AI coding agent for the terminal.",
+  "homepage": null,
+  "docs": "https://xerv.netlify.app/swades",
+  "github": "https://github.com/Electroiscoding/Swades-Agent",
+  "id": "swades-agent",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

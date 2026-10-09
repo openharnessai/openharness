@@ -1,0 +1,27 @@
+{
+  "name": "QwenPaw",
+  "description": "Alibaba’s multi-agent development framework.",
+  "homepage": null,
+  "docs": "https://qwenpaw.agentscope.io/docs/console/",
+  "github": "https://github.com/agentscope-ai/QwenPaw",
+  "id": "qwenpaw",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "personal"
+  ],
+  "interfaces": [
+    "web",
+    "api"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

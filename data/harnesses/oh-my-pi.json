@@ -1,0 +1,26 @@
+{
+  "name": "Oh My Pi",
+  "description": "An open-source, multi-provider coding agent designed for terminal-based software development workflows.",
+  "homepage": "https://github.com/can1357/oh-my-pi",
+  "docs": "https://github.com/can1357/oh-my-pi",
+  "github": "https://github.com/can1357/oh-my-pi",
+  "id": "oh-my-pi",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

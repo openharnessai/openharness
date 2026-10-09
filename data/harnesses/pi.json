@@ -1,0 +1,26 @@
+{
+  "name": "Pi",
+  "description": "A minimal, steerable coding agent that works on a real git workspace, reading, writing, and editing files and running Bash to complete tasks end to end.",
+  "homepage": "https://pi.dev/",
+  "docs": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md",
+  "github": "https://github.com/badheuristics/pi",
+  "id": "pi",
+  "oss": true,
+  "license": "MIT",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

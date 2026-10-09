@@ -1,0 +1,26 @@
+{
+  "name": "Hermes Agent",
+  "description": "An open-source, persistent AI agent with memory, reusable skills, built-in tools, browser automation, scheduled tasks, and subagents.",
+  "homepage": "https://hermes-agent.nousresearch.com/",
+  "docs": "https://hermes-agent.nousresearch.com/docs/reference/tools-reference/",
+  "github": null,
+  "id": "hermes-agent",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

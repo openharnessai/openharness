@@ -1,0 +1,26 @@
+{
+  "name": "Deep Agents Code",
+  "description": "AI coding agent. Details pending.",
+  "homepage": null,
+  "docs": "https://docs.langchain.com/oss/python/deepagents/code/overview",
+  "github": null,
+  "id": "deep-agents-code",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

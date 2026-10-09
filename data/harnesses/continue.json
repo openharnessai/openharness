@@ -1,0 +1,27 @@
+{
+  "name": "Continue",
+  "description": "Open-source AI code assistant for IDEs and the CLI.",
+  "homepage": null,
+  "docs": "https://docs.continue.dev/cli/quickstart",
+  "github": "https://github.com/continuedev/continue",
+  "id": "continue",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "ide",
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "OpenHands",
+  "description": "An open-source coding agent platform that can run commands, browse the web, edit software projects, and call APIs.",
+  "homepage": "https://www.openhands.dev/",
+  "docs": "https://docs.openhands.dev/sdk/index",
+  "github": "https://github.com/All-Hands-AI/OpenHands",
+  "id": "openhands",
+  "oss": true,
+  "license": "MIT",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "web",
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

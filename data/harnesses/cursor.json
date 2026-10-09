@@ -1,0 +1,26 @@
+{
+  "name": "Cursor",
+  "description": "AI-first code editor built on VS Code.",
+  "homepage": null,
+  "docs": "https://docs.cursor.com/en/agent/tools",
+  "github": null,
+  "id": "cursor",
+  "oss": false,
+  "license": "proprietary",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

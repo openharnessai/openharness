@@ -1,0 +1,26 @@
+{
+  "name": "Codebuff",
+  "description": "A self-improving command-line coding agent.",
+  "homepage": "https://codebuff.com/",
+  "docs": "https://github.com/CodebuffAI/codebuff",
+  "github": "https://github.com/CodebuffAI/codebuff",
+  "id": "codebuff",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

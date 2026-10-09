@@ -1,0 +1,26 @@
+{
+  "name": "stagewise",
+  "description": "Stagewise OpenRouter agent for multi-step tasks.",
+  "homepage": null,
+  "docs": "https://docs.stagewise.io/",
+  "github": null,
+  "id": "stagewise",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

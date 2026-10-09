@@ -1,0 +1,26 @@
+{
+  "name": "MiMo Code",
+  "description": "Xiaomi’s open-source AI coding agent.",
+  "homepage": null,
+  "docs": "https://github.com/XiaomiMiMo/MiMo-Code",
+  "github": "https://github.com/XiaomiMiMo/MiMo-Code",
+  "id": "mimo-code",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

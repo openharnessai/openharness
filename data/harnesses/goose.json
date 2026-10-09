@@ -1,0 +1,26 @@
+{
+  "name": "goose",
+  "description": "An open-source, on-machine AI agent for extensible development and automation workflows.",
+  "homepage": "https://goose-docs.ai/",
+  "docs": "https://goose-docs.ai/",
+  "github": "https://github.com/block/goose",
+  "id": "goose",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

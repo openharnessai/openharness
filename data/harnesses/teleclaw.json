@@ -1,0 +1,26 @@
+{
+  "name": "TeleClaw",
+  "description": "A platform for creating custom Telegram AI bots.",
+  "homepage": "https://app.teleclaw.bot/",
+  "docs": "https://teleclaw.info/?lang=en",
+  "github": null,
+  "id": "teleclaw",
+  "oss": false,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

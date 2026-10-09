@@ -1,0 +1,26 @@
+{
+  "name": "Zoo Code",
+  "description": "AI coding assistant for VS Code.",
+  "homepage": null,
+  "docs": "https://docs.zoocode.dev/advanced-usage/available-tools/tool-use-overview",
+  "github": "https://github.com/Zoo-Code-Org/Zoo-Code",
+  "id": "zoo-code",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "ide"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

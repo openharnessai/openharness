@@ -18,7 +18,10 @@ const INTERFACES = ['cli', 'ide', 'sdk', 'api', 'web'];
 const CAP_KEYS = ['sandbox', 'tools', 'mcp', 'permissions', 'resume', 'subagents'];
 
 // 1. data/harnesses.json
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'harnesses.json'), 'utf8'));
+const dataDir = path.join(__dirname, 'data', 'harnesses');
+const data = fs.readdirSync(dataDir).filter((f) => f.endsWith('.json'))
+  .map((f) => JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8')))
+  .sort((a, b) => String(a.id).localeCompare(String(b.id)));
 check(Array.isArray(data), 'data/harnesses.json is an array');
 check(data.length > 0, 'data/harnesses.json has entries (got ' + data.length + ')');
 

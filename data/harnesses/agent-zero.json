@@ -1,0 +1,27 @@
+{
+  "name": "Agent Zero",
+  "description": "An open-source framework for creating and operating customizable autonomous AI agents.",
+  "homepage": "https://agent-zero.ai/",
+  "docs": "https://www.agent-zero.ai/p/docs/desktop/",
+  "github": "https://github.com/agent0ai/agent-zero",
+  "id": "agent-zero",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "personal"
+  ],
+  "interfaces": [
+    "web",
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

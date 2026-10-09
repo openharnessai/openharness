@@ -1,0 +1,26 @@
+{
+  "name": "Gajae Code",
+  "description": "AI coding agent for terminal-based development workflows.",
+  "homepage": null,
+  "docs": "https://github.com/Yeachan-Heo/gajae-code",
+  "github": "https://github.com/Yeachan-Heo/gajae-code",
+  "id": "gajae-code",
+  "oss": true,
+  "license": "unknown",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}

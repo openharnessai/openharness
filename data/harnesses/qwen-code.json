@@ -1,0 +1,26 @@
+{
+  "name": "Qwen Code",
+  "description": "A command-line AI workflow tool for coding and software engineering tasks.",
+  "homepage": "https://github.com/QwenLM/qwen-code",
+  "docs": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/introduction/",
+  "github": "https://github.com/QwenLM/qwen-code",
+  "id": "qwen-code",
+  "oss": true,
+  "license": "Apache-2.0",
+  "categories": [
+    "coding"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "source": "openharnessai.app directory",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": "unknown",
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
+}
