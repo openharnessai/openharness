@@ -8,11 +8,14 @@
 
 > **Formerly HarnessRouter.** OpenHarness is an independent project and is **not affiliated with** any other project using the "OpenHarness" name.
 
-## What is OpenHarness?
+## What this repo is
 
-OpenHarness is a directory of [agent harnesses](docs/uhp.md) — the runtime that
-gives an AI coding agent its tools, sandbox, permissions, and memory. This repo
-ships the directory as data plus a small CLI to browse and validate it.
+OpenHarness is a **directory + CLI + UHP card format** for agent harnesses.
+
+- It is **not** a hosted sandbox or a service — no server, no accounts, no runtime here.
+- It is **not** the same project as HKUDS/OpenHarness, open-harness.dev, or any other project using the "OpenHarness" name.
+
+This repo ships the directory as data ([data/harnesses.json](data/harnesses.json)) plus a small CLI to browse and validate it.
 
 ## Why OpenHarness
 

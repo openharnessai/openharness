@@ -123,13 +123,20 @@ function cmdValidate(file) {
     process.exit(1);
   }
   const errors = [];
+  const props = SCHEMA.properties || {};
   for (const req of SCHEMA.required || []) {
-    if (typeof card[req] !== 'string' || card[req].trim() === '') {
-      errors.push(`"${req}" is required and must be a non-empty string`);
+    const val = card[req];
+    const t = props[req] && props[req].type;
+    if (t === 'array') {
+      if (!Array.isArray(val) || val.length === 0) errors.push(`"${req}" is required and must be a non-empty array`);
+    } else if (t === 'boolean') {
+      if (typeof val !== 'boolean') errors.push(`"${req}" is required and must be a boolean`);
+    } else {
+      if (typeof val !== 'string' || val.trim() === '') errors.push(`"${req}" is required and must be a non-empty string`);
     }
   }
-  for (const opt of ['homepage', 'docs', 'github']) {
-    if (card[opt] !== undefined && card[opt] !== null && !isUrl(card[opt])) {
+  for (const opt of ['homepage', 'docs', 'github', 'repo']) {
+    if (card[opt] !== undefined && card[opt] !== null && card[opt] !== '' && !isUrl(card[opt])) {
       errors.push(`"${opt}" must be a valid http(s) URL (got "${card[opt]}")`);
     }
   }

@@ -1,11 +1,28 @@
 {
   "name": "openharness",
   "version": "0.1.0",
-  "description": "Discover, compare, and evaluate AI agent harnesses.",
+  "description": "A directory of agent harnesses plus a dependency-free CLI, shipped as UHP harness cards.",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openharnessai/openharness.git"
+  },
   "bin": {
     "harness": "harness.js"
   },
+  "files": [
+    "harness.js",
+    "data/",
+    "docs/"
+  ],
+  "keywords": [
+    "harness",
+    "agent",
+    "cli",
+    "directory",
+    "uhp",
+    "ai"
+  ],
   "scripts": {
     "test": "node test.js"
   },

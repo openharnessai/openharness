@@ -1,10 +1,16 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "UHP Harness Card",
-  "description": "A Unified Harness Protocol (UHP) harness card describes one agent harness.",
+  "description": "A Unified Harness Protocol (UHP) harness card describes one agent harness with stable, comparable, verifiable fields. Capabilities are enumerable, never marketing copy.",
   "type": "object",
-  "required": ["name", "description"],
+  "additionalProperties": false,
+  "required": ["id", "name", "description", "categories", "interfaces", "oss"],
   "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifier. Never changes once published."
+    },
     "name": {
       "type": "string",
       "minLength": 1,
@@ -12,23 +18,70 @@
     },
     "description": {
       "type": "string",
-      "minLength": 1,
-      "description": "One-to-two sentence summary of what the harness does."
+      "minLength": 20,
+      "description": "One or two factual sentences about what it does. Not marketing copy."
     },
     "homepage": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "uri",
-      "description": "The harness's own website."
+      "description": "The harness's own website, or null."
     },
     "docs": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "uri",
-      "description": "Documentation URL."
+      "description": "Documentation URL, or null."
     },
     "github": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "uri",
-      "description": "Public source repository, if any."
+      "description": "Public source repository root, or null if proprietary."
+    },
+    "repo": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Canonical source repository root (may equal github)."
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX identifier such as 'Apache-2.0', or 'proprietary', or 'unknown'."
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "Functional categories, e.g. ['coding'], ['browser'], ['personal']."
+    },
+    "interfaces": {
+      "type": "array",
+      "items": { "enum": ["cli", "ide", "sdk", "api", "web"] },
+      "minItems": 1,
+      "description": "How you interact with it."
+    },
+    "oss": {
+      "type": "boolean",
+      "description": "True if there is a public source repository."
+    },
+    "source": {
+      "type": "string",
+      "description": "Where this card's data was sourced from."
+    },
+    "last_verified": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "ISO date the fields were last checked, or null if never."
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Enumerated capabilities. Use true/false, or 'unknown' when there is no evidence.",
+      "properties": {
+        "sandbox": { "enum": [true, false, "unknown"] },
+        "tools": { "enum": [true, false, "unknown"] },
+        "mcp": { "enum": [true, false, "unknown"] },
+        "permissions": { "enum": [true, false, "unknown"] },
+        "resume": { "enum": [true, false, "unknown"] },
+        "subagents": { "enum": [true, false, "unknown"] }
+      }
     }
   }
 }

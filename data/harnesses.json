@@ -4,307 +4,1150 @@
     "description": "An open-source, persistent AI agent with memory, reusable skills, built-in tools, browser automation, scheduled tasks, and subagents.",
     "homepage": "https://hermes-agent.nousresearch.com/",
     "docs": "https://hermes-agent.nousresearch.com/docs/reference/tools-reference/",
-    "github": null
+    "github": null,
+    "id": "hermes-agent",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Kilo Code",
     "description": "An open-source coding agent for VS Code, JetBrains, and the command line, built around agentic development workflows.",
     "homepage": "https://kilocode.ai/",
     "docs": "https://kilo.ai/docs/automate/tools",
-    "github": null
+    "github": null,
+    "id": "kilo-code",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Claude Code",
     "description": "Anthropic’s coding agent for understanding codebases, editing files, running commands and tests, and iterating on implementation tasks.",
     "homepage": "https://claude.ai/code",
     "docs": "https://code.claude.com/docs/en/tools-reference",
-    "github": null
+    "github": null,
+    "id": "claude-code",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "OpenClaw",
     "description": "An open-source personal agent that connects to messaging apps and can browse, run commands, manage files, and take external actions.",
     "homepage": "https://openclaw.ai/",
     "docs": "https://docs.openclaw.ai/tools/exec",
-    "github": null
+    "github": null,
+    "id": "openclaw",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Cline",
     "description": "An open-source IDE coding agent that explores codebases, edits files, runs terminal commands, and operates a browser.",
     "homepage": "https://cline.bot/",
     "docs": "https://docs.cline.bot/sdk/tools",
-    "github": null
+    "github": "https://github.com/cline/cline",
+    "id": "cline",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "ide",
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Pi",
     "description": "A minimal, steerable coding agent that works on a real git workspace, reading, writing, and editing files and running Bash to complete tasks end to end.",
     "homepage": "https://pi.dev/",
     "docs": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md",
-    "github": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md"
+    "github": "https://github.com/badheuristics/pi",
+    "id": "pi",
+    "oss": true,
+    "license": "MIT",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Command Code",
     "description": "AI coding agent for the command line.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://commandcode.ai/docs/reference/tools",
-    "github": null
+    "github": null,
+    "id": "command-code",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Codex",
     "description": "OpenAI’s coding agent for building, reviewing, testing, and shipping software across local and cloud development environments.",
     "homepage": "https://openai.com/codex/",
     "docs": "https://openai.com/index/codex-for-almost-everything/",
-    "github": null
+    "github": null,
+    "id": "codex",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Oh My Pi",
     "description": "An open-source, multi-provider coding agent designed for terminal-based software development workflows.",
     "homepage": "https://github.com/can1357/oh-my-pi",
     "docs": "https://github.com/can1357/oh-my-pi",
-    "github": "https://github.com/can1357/oh-my-pi"
+    "github": "https://github.com/can1357/oh-my-pi",
+    "id": "oh-my-pi",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Cursor",
     "description": "AI-first code editor built on VS Code.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://docs.cursor.com/en/agent/tools",
-    "github": null
+    "github": null,
+    "id": "cursor",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Codebuff",
     "description": "A self-improving command-line coding agent.",
     "homepage": "https://codebuff.com/",
     "docs": "https://github.com/CodebuffAI/codebuff",
-    "github": "https://github.com/CodebuffAI/codebuff"
+    "github": "https://github.com/CodebuffAI/codebuff",
+    "id": "codebuff",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "OpenHands",
     "description": "An open-source coding agent platform that can run commands, browse the web, edit software projects, and call APIs.",
     "homepage": "https://www.openhands.dev/",
     "docs": "https://docs.openhands.dev/sdk/index",
-    "github": null
+    "github": "https://github.com/All-Hands-AI/OpenHands",
+    "id": "openhands",
+    "oss": true,
+    "license": "MIT",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "web",
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Roo Code",
     "description": "A VS Code agent with customizable modes for coding, architecture, debugging, and review across multiple model providers.",
     "homepage": "https://github.com/RooVetGit/Roo-Cline",
     "docs": "https://roocodeinc.github.io/Roo-Code/advanced-usage/available-tools/tool-use-overview/",
-    "github": "https://github.com/RooVetGit/Roo-Cline"
+    "github": "https://github.com/RooVetGit/Roo-Cline",
+    "id": "roo-code",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "ide"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "OpenSquilla",
     "description": "AI coding agent for building artifacts and media.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://www.opensquilla.ai/zh/docs/artifacts-and-media/",
-    "github": null
+    "github": null,
+    "id": "opensquilla",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Agent Zero",
     "description": "An open-source framework for creating and operating customizable autonomous AI agents.",
     "homepage": "https://agent-zero.ai/",
     "docs": "https://www.agent-zero.ai/p/docs/desktop/",
-    "github": null
+    "github": "https://github.com/agent0ai/agent-zero",
+    "id": "agent-zero",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "personal"
+    ],
+    "interfaces": [
+      "web",
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Qwen Code",
     "description": "A command-line AI workflow tool for coding and software engineering tasks.",
     "homepage": "https://github.com/QwenLM/qwen-code",
     "docs": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/introduction/",
-    "github": "https://github.com/QwenLM/qwen-code"
+    "github": "https://github.com/QwenLM/qwen-code",
+    "id": "qwen-code",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "goose",
     "description": "An open-source, on-machine AI agent for extensible development and automation workflows.",
     "homepage": "https://goose-docs.ai/",
     "docs": "https://goose-docs.ai/",
-    "github": null
+    "github": "https://github.com/block/goose",
+    "id": "goose",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Crush",
     "description": "A terminal-first AI coding agent from Charm.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://github.com/charmbracelet/crush",
-    "github": "https://github.com/charmbracelet/crush"
+    "github": "https://github.com/charmbracelet/crush",
+    "id": "crush",
+    "oss": true,
+    "license": "MIT",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Continue",
     "description": "Open-source AI code assistant for IDEs and the CLI.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://docs.continue.dev/cli/quickstart",
-    "github": null
+    "github": "https://github.com/continuedev/continue",
+    "id": "continue",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "ide",
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "nanobot",
     "description": "An ultra-lightweight personal AI agent.",
     "homepage": "https://github.com/HKUDS/nanobot",
     "docs": "https://github.com/HKUDS/nanobot",
-    "github": "https://github.com/HKUDS/nanobot"
+    "github": "https://github.com/HKUDS/nanobot",
+    "id": "nanobot",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Skyvern",
     "description": "AI agent for automating browser-based workflows.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://www.skyvern.com/docs/developers/getting-started/core-concepts",
-    "github": null
+    "github": "https://github.com/Skyvern-AI/skyvern",
+    "id": "skyvern",
+    "oss": true,
+    "license": "AGPL-3.0",
+    "categories": [
+      "browser"
+    ],
+    "interfaces": [
+      "web",
+      "api"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Factory Droid",
     "description": "Factory’s AI coding agent for autonomous engineering.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://docs.factory.ai/cli/droid-exec/overview",
-    "github": null
+    "github": "https://github.com/FactoryAI/droid",
+    "id": "factory-droid",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Aider",
     "description": "An open-source AI pair-programming agent that works directly from the terminal.",
     "homepage": "https://aider.chat/",
     "docs": "https://aider.chat/docs/usage/commands.html",
-    "github": null
+    "github": "https://github.com/Aider-AI/aider",
+    "id": "aider",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Junie",
     "description": "JetBrains’ agentic coding tool for reviewing, writing, and modifying code through IDE and terminal workflows.",
     "homepage": "https://www.jetbrains.com/junie",
     "docs": "https://junie.jetbrains.com/docs/action-allowlist-junie-cli.html",
-    "github": null
+    "github": null,
+    "id": "junie",
+    "oss": false,
+    "license": "proprietary",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Zoo Code",
     "description": "AI coding assistant for VS Code.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://docs.zoocode.dev/advanced-usage/available-tools/tool-use-overview",
-    "github": null
+    "github": "https://github.com/Zoo-Code-Org/Zoo-Code",
+    "id": "zoo-code",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "ide"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "MiMo Code",
     "description": "Xiaomi’s open-source AI coding agent.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://github.com/XiaomiMiMo/MiMo-Code",
-    "github": "https://github.com/XiaomiMiMo/MiMo-Code"
+    "github": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "id": "mimo-code",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "pool",
     "description": "Poolside’s coding agent for terminal workflows and ACP-compatible editors.",
     "homepage": "https://poolside.ai/",
     "docs": "https://docs.poolside.ai/cli/pool",
-    "github": null
+    "github": null,
+    "id": "pool",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "TeleClaw",
     "description": "A platform for creating custom Telegram AI bots.",
     "homepage": "https://app.teleclaw.bot/",
     "docs": "https://teleclaw.info/?lang=en",
-    "github": null
+    "github": null,
+    "id": "teleclaw",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "QwenPaw",
     "description": "Alibaba’s multi-agent development framework.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://qwenpaw.agentscope.io/docs/console/",
-    "github": null
+    "github": "https://github.com/agentscope-ai/QwenPaw",
+    "id": "qwenpaw",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "personal"
+    ],
+    "interfaces": [
+      "web",
+      "api"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "jcode",
     "description": "AI coding agent for terminal-based workflows.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://www.j-code.net/",
-    "github": null
+    "github": null,
+    "id": "jcode",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "stagewise",
     "description": "Stagewise OpenRouter agent for multi-step tasks.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://docs.stagewise.io/",
-    "github": null
+    "github": null,
+    "id": "stagewise",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "PostQode",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent. Details pending.",
+    "homepage": null,
     "docs": "https://www.postqode.ai/enterprise",
-    "github": null
+    "github": null,
+    "id": "postqode",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Verdent",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent. Details pending.",
+    "homepage": null,
     "docs": "https://docs.verdent.ai/verdent-for-vscode/advanced-features/tool-reference",
-    "github": null
+    "github": null,
+    "id": "verdent",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Gajae Code",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent for terminal-based development workflows.",
+    "homepage": null,
     "docs": "https://github.com/Yeachan-Heo/gajae-code",
-    "github": "https://github.com/Yeachan-Heo/gajae-code"
+    "github": "https://github.com/Yeachan-Heo/gajae-code",
+    "id": "gajae-code",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Deep Agents Code",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent. Details pending.",
+    "homepage": null,
     "docs": "https://docs.langchain.com/oss/python/deepagents/code/overview",
-    "github": null
+    "github": null,
+    "id": "deep-agents-code",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Z Code",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent. Details pending.",
+    "homepage": null,
     "docs": "https://zcode.z.ai/en/docs/welcome",
-    "github": null
+    "github": null,
+    "id": "z-code",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Ottili Coder",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "Command-line AI coding agent.",
+    "homepage": null,
     "docs": "https://github.com/Ottili-ONE/coder-cli",
-    "github": "https://github.com/Ottili-ONE/coder-cli"
+    "github": "https://github.com/Ottili-ONE/coder-cli",
+    "id": "ottili-coder",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Swades Agent",
-    "description": "AI coding agent.",
-    "homepage": "",
+    "description": "AI coding agent for the terminal.",
+    "homepage": null,
     "docs": "https://xerv.netlify.app/swades",
-    "github": null
+    "github": "https://github.com/Electroiscoding/Swades-Agent",
+    "id": "swades-agent",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "DeepSeek Harness",
     "description": "An autonomous coding agent that works on a real git workspace, running shell commands and editing files to complete tasks end to end.",
-    "homepage": "",
+    "homepage": null,
     "docs": "https://github.com/deepseek-ai/deepseek-harness",
-    "github": "https://github.com/deepseek-ai/deepseek-harness"
+    "github": "https://github.com/deepseek-ai/deepseek-harness",
+    "id": "deepseek-harness",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "OpenCode",
     "description": "An open source, provider-agnostic AI coding agent with a terminal interface, custom tools, skills, MCP support, and configurable permissions.",
     "homepage": "https://opencode.ai/",
     "docs": "https://opencode.ai/docs/tools/",
-    "github": null
+    "github": "https://github.com/sst/opencode",
+    "id": "opencode",
+    "oss": true,
+    "license": "MIT",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli",
+      "web"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Gemini CLI",
     "description": "Google’s open-source terminal agent that brings Gemini to the command line, with file system and shell tools, MCP servers, extensions, and sandboxed execution.",
     "homepage": "https://geminicli.com/",
     "docs": "https://google-gemini.github.io/gemini-cli/",
-    "github": null
+    "github": "https://github.com/google-gemini/gemini-cli",
+    "id": "gemini-cli",
+    "oss": true,
+    "license": "Apache-2.0",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "Kimi Code CLI",
     "description": "An open-source terminal coding agent from Moonshot AI, with built-in file and shell tools, sub-agents, plugins, and MCP.",
     "homepage": "https://www.kimi.ai/code",
     "docs": "https://moonshotai.github.io/kimi-code/en/",
-    "github": null
+    "github": "https://github.com/MoonshotAI/kimi-code",
+    "id": "kimi-code-cli",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "System One",
     "description": "An open-source decision loop that compiles an environment\\'s finite action space into typed questions and gates each choice by confidence.",
-    "homepage": "https://github.com/openharnessai/openharness",
-    "docs": "https://github.com/openharnessai/openharness",
-    "github": "https://github.com/openharnessai/openharness"
+    "homepage": null,
+    "docs": null,
+    "github": null,
+    "id": "system-one",
+    "oss": false,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   },
   {
     "name": "CheetahClaws",
     "description": "An open-source terminal coding agent with a large built-in tool set, typed sub-agents, plugins, and persistent memory.",
     "homepage": "https://cheetahclaws.github.io/",
     "docs": "https://cheetahclaws.github.io/",
-    "github": null
+    "github": "https://github.com/SAIL-Research-Lab/cheetahclaws",
+    "id": "cheetahclaws",
+    "oss": true,
+    "license": "unknown",
+    "categories": [
+      "coding"
+    ],
+    "interfaces": [
+      "cli"
+    ],
+    "source": "openharnessai.app directory",
+    "last_verified": null,
+    "capabilities": {
+      "sandbox": "unknown",
+      "tools": "unknown",
+      "mcp": "unknown",
+      "permissions": "unknown",
+      "resume": "unknown",
+      "subagents": "unknown"
+    }
   }
 ]

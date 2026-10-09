@@ -1,7 +1,23 @@
 {
+  "id": "example-harness",
   "name": "Example Harness",
   "description": "A minimal harness card used to demonstrate UHP validation.",
   "homepage": "https://example.com",
   "docs": "https://example.com/docs",
-  "github": "https://github.com/example/example-harness"
+  "github": "https://github.com/example/example-harness",
+  "repo": "https://github.com/example/example-harness",
+  "license": "MIT",
+  "categories": ["coding"],
+  "interfaces": ["cli"],
+  "oss": true,
+  "source": "example",
+  "last_verified": null,
+  "capabilities": {
+    "sandbox": "unknown",
+    "tools": true,
+    "mcp": "unknown",
+    "permissions": "unknown",
+    "resume": "unknown",
+    "subagents": "unknown"
+  }
 }
